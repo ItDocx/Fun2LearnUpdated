@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:title="Home"
+        android:id="@+id/mhome_btn"
+        android:iconTint="@color/border_color"
+        android:icon="@drawable/ic_home"
+        />
+
+    <item android:title="Counting"
+        android:iconTint="@color/border_color"
+        android:id="@+id/mcounting_btn"
+        android:icon="@drawable/ic_menu_counting" />
+
+
+    <item android:title="Alphabets"
+        android:iconTint="@color/border_color"
+        android:id="@+id/malphabets_btn"
+        android:icon="@drawable/ic_menu_alphabets"
+
+        />
+    <item android:title="Numbers"
+        android:iconTint="@color/border_color"
+        android:id="@+id/mnumbers_btn"
+        android:icon="@drawable/ic_menu_numbers"
+
+        />
+    <item android:title="Shapes"
+        android:iconTint="@color/border_color"
+        android:id="@+id/mshapes_btn"
+        android:icon="@drawable/ic_menu_shapes"
+
+        />
+    <item android:title="Audio Book"
+        android:iconTint="@color/border_color"
+        android:id="@+id/maudio_btn"
+        android:icon="@drawable/ic_menu_audiobook"
+
+        />
+    <item android:title="Drawing"
+        android:iconTint="@color/border_color"
+        android:id="@+id/mdrawing_btn"
+        android:icon="@drawable/ic_menu_drawing"
+
+        />
+
+    <item android:title="@string/feedback"
+        android:id="@+id/feedback_btn"
+        android:iconTint="@color/border_color"
+        android:icon="@drawable/ic_feedback"
+
+        />
+
+    <item android:title="@string/aboutus"
+        android:id="@+id/aboutUs_btn"
+        android:iconTint="@color/border_color"
+        android:icon="@drawable/ic_menu_aboutus"/>
+
+    <item android:title="@string/exit"
+        android:id="@+id/exit_btn"
+        android:iconTint="@color/border_color"
+        android:icon="@drawable/ic_menu_exit"/>
+
+
+</menu>

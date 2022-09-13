@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">iTunes Player</string>
+
+    <string name="search">Search by artist</string>
+
+    <string name="background_album_art">Album art background</string>
+    <string name="background_playing_logo">Playing logo background</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="country_id">id</string>
+
+    <string name="server_timeout">Server Timeout</string>
+    <string name="error">Oops,\n%1s</string>
+    <string name="close_dialog">Close</string>
+    <string name="no_data">No artist found!</string>
+    <string name="welcome">Search your favorite music artists</string>
+
+    <string name="minute">%02d:%02d</string>
+</resources>

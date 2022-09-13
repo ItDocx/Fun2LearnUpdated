@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "558415909067",
+    "project_id": "fun2learn-31c71",
+    "storage_bucket": "fun2learn-31c71.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:558415909067:android:22398d1da9731987f50b4e",
+        "android_client_info": {
+          "package_name": "com.brainmedia.fun2learn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "558415909067-e4f78fj1dqgpjlkbm6s6jvdk5dcnpmn8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmcAUpcBsCsWbU7nTqA9gcoRZ1FUsmTa8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "558415909067-e4f78fj1dqgpjlkbm6s6jvdk5dcnpmn8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

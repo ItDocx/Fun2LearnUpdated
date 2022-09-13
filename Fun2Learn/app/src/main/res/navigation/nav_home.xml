@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_home"
+    app:startDestination="@id/Fragmentcounting">
+
+    <fragment
+        android:id="@+id/Fragmentcounting"
+        android:name="com.brainmedia.fun2learn.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_fragcounting"
+            app:destination="@id/fragAlphabets"
+            app:enterAnim="@android:anim/fade_in" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragAlphabets"
+        android:name="com.brainmedia.fun2learn.fragcounting"
+        android:label="fragment_fragcounting"
+        tools:layout="@layout/fragment_fragcounting" >
+        <action
+            android:id="@+id/action_fragcounting_to_homeFragment"
+            app:destination="@id/Fragmentcounting"
+            app:enterAnim="@android:anim/fade_out" />
+    </fragment>
+</navigation>

@@ -1,0 +1,26 @@
+App Name: Cinemax
+Build Version: 0.1
+Supports minimum Android version: 4.4
+API: The Movie DB.
+Data Base: The Movie DB Data Base.
+API Decription: JSON
+Default Margin: 10dp
+Defailt Padding: 5dp
+Default Text Size: 16sp
+Default Heading: 18sp
+Activities: 
+1- Main Ativity in which the Home screen is displaying data.
+2- MovieInfo in which all the related data is showing according to the movie.
+
+Recycler View:
+1- Slider
+2- Movie list
+3- Popular Movies
+
+
+
+Dependencies: 
+1- Glide 
+2- Json
+
+
