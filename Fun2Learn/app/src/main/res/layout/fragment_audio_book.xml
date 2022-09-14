@@ -3,12 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/main_bg_color"
     tools:context=".Fragments.FragmentAudioBook">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/audioRecycler"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
-
+        android:scrollbarThumbVertical="@drawable/ic_scroll"
+        android:scrollbars="vertical"
+        tools:listitem="@layout/audio_items" />
 </FrameLayout>

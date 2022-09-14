@@ -19,7 +19,7 @@
         android:id="@+id/fragAlphabets"
         android:name="com.brainmedia.fun2learn.fragcounting"
         android:label="fragment_fragcounting"
-        tools:layout="@layout/fragment_fragcounting" >
+        tools:layout="@layout/fragment_fragalphabets" >
         <action
             android:id="@+id/action_fragcounting_to_homeFragment"
             app:destination="@id/Fragmentcounting"

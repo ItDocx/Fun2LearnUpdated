@@ -6,10 +6,19 @@
         <entry key="..\:/Users/Moazam/Desktop/Fun2Learn/app/src/main/res/drawable/bg_card.xml" value="0.1" />
         <entry key="..\:/Users/Moazam/Desktop/Fun2Learn/app/src/main/res/drawable/ic_close.xml" value="0.1" />
         <entry key="..\:/Users/Moazam/Desktop/Fun2Learn/app/src/main/res/drawable/ic_nav_menu.xml" value="0.1" />
+        <entry key="..\:/Users/Moazam/Desktop/Fun2Learn/app/src/main/res/drawable/ic_scroll.xml" value="0.1" />
+        <entry key="..\:/Users/Moazam/Desktop/Fun2Learn/app/src/main/res/layout/activity_alphabet.xml" value="0.209375" />
+        <entry key="..\:/Users/Moazam/Desktop/Fun2Learn/app/src/main/res/layout/activity_alphabets.xml" value="0.209375" />
+        <entry key="..\:/Users/Moazam/Desktop/Fun2Learn/app/src/main/res/layout/activity_alphabets2.xml" value="0.1953125" />
         <entry key="..\:/Users/Moazam/Desktop/Fun2Learn/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Moazam/Desktop/Fun2Learn/app/src/main/res/layout/activity_player.xml" value="0.22" />
+        <entry key="..\:/Users/Moazam/Desktop/Fun2Learn/app/src/main/res/layout/audio_items.xml" value="0.18948824343015214" />
+        <entry key="..\:/Users/Moazam/Desktop/Fun2Learn/app/src/main/res/layout/custom_controller.xml" value="0.18" />
         <entry key="..\:/Users/Moazam/Desktop/Fun2Learn/app/src/main/res/layout/custom_toolbar.xml" value="0.28842105263157897" />
         <entry key="..\:/Users/Moazam/Desktop/Fun2Learn/app/src/main/res/layout/frag_about_us.xml" value="0.20833333333333334" />
-        <entry key="..\:/Users/Moazam/Desktop/Fun2Learn/app/src/main/res/layout/fragment_audio_book.xml" value="0.209375" />
+        <entry key="..\:/Users/Moazam/Desktop/Fun2Learn/app/src/main/res/layout/fragment_audio_book.xml" value="0.12" />
+        <entry key="..\:/Users/Moazam/Desktop/Fun2Learn/app/src/main/res/layout/fragment_fragalphabets.xml" value="0.209375" />
+        <entry key="..\:/Users/Moazam/Desktop/Fun2Learn/app/src/main/res/layout/fragment_fragcounting.xml" value="0.209375" />
         <entry key="..\:/Users/Moazam/Desktop/Fun2Learn/app/src/main/res/layout/nav_header.xml" value="0.16" />
         <entry key="..\:/Users/Moazam/Desktop/Fun2Learn/app/src/main/res/layout/rate_us_dialoge.xml" value="0.20833333333333334" />
         <entry key="..\:/Users/Moazam/Desktop/Fun2Learn/app/src/main/res/menu/nav_menu.xml" value="0.209375" />
