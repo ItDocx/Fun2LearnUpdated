@@ -1,5 +1,7 @@
 package com.brainmedia.fun2learn.Fragments
 
+import android.content.IntentFilter
+import android.net.ConnectivityManager
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -11,6 +13,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.brainmedia.fun2learn.Adapters.AudioAdapter
 import com.brainmedia.fun2learn.Models.AudioModels
 import com.brainmedia.fun2learn.R
+import com.brainmedia.masterdownloader.Utils.NetworkChangeListener
 import com.google.firebase.database.*
 
 
@@ -19,6 +22,9 @@ class FragmentAudioBook : Fragment() {
     lateinit var recycler:RecyclerView
     private lateinit var StoryRef: DatabaseReference
     lateinit var audioList: ArrayList<AudioModels>
+    private val networkchange: NetworkChangeListener = NetworkChangeListener()
+
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -65,5 +71,7 @@ class FragmentAudioBook : Fragment() {
         })
 
     }
+
+
 
 }

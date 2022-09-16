@@ -33,11 +33,17 @@
             android:background="@color/border_color"
             app:layout_constraintTop_toBottomOf="@id/main_Toolbar" />
 
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/main_ToolbarunderLine"
+            android:id="@+id/dashContainer"/>
+
         <androidx.core.widget.NestedScrollView
             android:layout_width="match_parent"
             android:layout_height="0dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/main_ToolbarunderLine">
+            app:layout_constraintTop_toBottomOf="@+id/dashContainer">
 
     <FrameLayout
     android:id="@+id/layout_transaction"
@@ -69,6 +75,7 @@
                         app:cardElevation="5dp">
 
                         <RelativeLayout
+                            android:id="@+id/llCountdown"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
 
@@ -148,6 +155,7 @@
                         app:cardElevation="5dp">
 
                         <RelativeLayout
+                            android:id="@+id/llNumbers"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
 
@@ -184,6 +192,7 @@
                         app:cardElevation="5dp">
 
                         <RelativeLayout
+                            android:id="@+id/llShapes"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
 
@@ -265,6 +274,7 @@
                         app:cardElevation="5dp">
 
                         <RelativeLayout
+                            android:id="@+id/llDrawing"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
 

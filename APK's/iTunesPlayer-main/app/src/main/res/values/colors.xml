@@ -12,4 +12,6 @@
     <color name="black_200">#3B3B3B</color>
     <color name="black_500">#151515</color>
     <color name="light_blue">#69a6f9</color>
+    <color name="main_color">#69a6f9</color>
+
 </resources>

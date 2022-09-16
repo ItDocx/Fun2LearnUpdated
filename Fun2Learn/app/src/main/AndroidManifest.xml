@@ -4,11 +4,10 @@
     package="com.brainmedia.fun2learn">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.WAKE_LOCK"/>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
-        android:usesCleartextTraffic="true"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -17,28 +16,47 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Fun2Learn"
+        android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:launchMode="singleTask"
-            android:name=".Alphabets"
-            android:exported="false"
-            android:configChanges="orientation|keyboard|screenSize|layoutDirection"
-            android:supportsPictureInPicture="true"
-            />
-
-        <activity
-            android:name=".PlayerActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-
-            android:exported="true">
+            android:name=".Splash"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
+        <activity
+            android:name=".Shapes"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Numbers"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Counting"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Alphabets"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:supportsPictureInPicture="true" />
+        <activity
+            android:name=".PlayerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false">
+
+        </activity> <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
     </application>
 
 </manifest>

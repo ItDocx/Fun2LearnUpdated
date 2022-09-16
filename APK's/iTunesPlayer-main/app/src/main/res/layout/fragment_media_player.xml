@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/white"
+    android:background="@color/main_color"
     android:paddingTop="16dp"
     tools:context=".player.MediaPlayerFragment">
 
@@ -12,7 +12,7 @@
         android:id="@+id/previousTrack"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:backgroundTint="@color/white"
+        android:backgroundTint="@color/main_color"
         android:src="@drawable/icon_previous"
         app:layout_constraintEnd_toStartOf="@id/playPause"
         app:layout_constraintHorizontal_chainStyle="packed"
@@ -34,7 +34,7 @@
         android:id="@+id/nextTrack"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:backgroundTint="@color/white"
+        android:backgroundTint="@color/main_color"
         android:src="@drawable/icon_next"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/playPause"
@@ -48,7 +48,7 @@
         android:layout_marginEnd="32dp"
         android:paddingTop="8dp"
         android:paddingBottom="8dp"
-        android:thumbTint="@color/light_blue"
+        android:thumbTint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/playPause" />

@@ -12,6 +12,7 @@
     <color name="txt_hint">#808080</color>
     <color name="main_bg_color">#FFF7DC</color>
     <color name="border_color">#D27700</color>
+    <color name="connectionColor">#ff0000</color>
 
     <!-- Card View Colors -->
     <color name="card_2Color">#94D200</color>

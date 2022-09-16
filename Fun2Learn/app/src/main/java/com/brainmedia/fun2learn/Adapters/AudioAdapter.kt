@@ -8,10 +8,11 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.brainmedia.fun2learn.Fragments.FragmentAudioBook
 import com.brainmedia.fun2learn.Models.AudioModels
 import com.brainmedia.fun2learn.PlayerActivity
 import com.brainmedia.fun2learn.R
-import com.bumptech.glide.Glide
+
 
 class AudioAdapter(private val context:Context, private val audioList: ArrayList<AudioModels>):
     RecyclerView.Adapter<AudioAdapter.MyViewHolder>() {
