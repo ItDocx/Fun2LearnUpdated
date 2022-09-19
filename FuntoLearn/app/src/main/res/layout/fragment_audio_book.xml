@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg_color"
+    tools:context=".Fragments.FragmentAudioBook">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/audioRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarThumbVertical="@drawable/ic_scroll"
+        android:scrollbars="vertical"
+        tools:listitem="@layout/audio_items" />
+</FrameLayout>
